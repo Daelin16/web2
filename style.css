@@ -1,0 +1,166 @@
+#body {
+    background: url("11.jpg");
+    color: #efefef;
+    background-size: 100%;
+}
+
+/*div {*/
+    /*border-color: green;*/
+    /*border-width: 3px;*/
+    /*border-style: solid;*/
+/*}*/
+
+#header > #header-left {
+    margin-top: 0;
+    font-size: 25px;
+    float: left;
+    font-family: chicago;
+}
+
+#header-right {
+    margin-top: 10px;
+    margin-left: 600px;
+    color: black;
+}
+
+#header-right-left {
+    float: left;
+    margin-left: 150px;
+}
+
+#header-right-right {
+    float: right;
+}
+
+#header {
+    font-family: fantasy;
+    font-size: 40px;
+    height: 100px;
+}
+
+#xValue {
+    float: top;
+    margin-left: 6px;
+    margin-top: 0;
+    width: 200px;
+}
+
+#header-right div {
+    font-size: 40px;
+}
+
+#check {
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 360px;
+}
+
+#left {
+    font-family: fantasy;
+    margin-top: 70px;
+    float: left;
+    height: 300px;
+    width: 48%;
+    font-size: 25px;
+}
+
+#x {
+    float: left;
+    height: 40px;
+    width: 600px;
+    color: black;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#YY {
+    float: left;
+    height: 40px;
+    width: 600px;
+    color: black;
+    margin-left: 200px;
+}
+
+#buttons {
+    float: left;
+    height: 40px;
+    width: 600px;
+    color: black;
+    margin-left: 200px;
+}
+
+#right {
+    float: right;
+    margin-top: 45px;
+    height: 400px;
+    width: 45%;
+}
+
+
+/*table {*/
+    /*margin-left: 400px;*/
+    /*margin-top: 450px;*/
+    /*color: black;*/
+    /*width: 100%;*/
+    /*background: none; !important;*/
+/*}*/
+
+.answerTable {
+    width: 100%;
+}
+
+.answerTable th {
+    width: 10%;
+}
+
+#table {
+    width: 100%;
+}
+
+.buttonDiv {
+    margin-top: 650px;
+    margin-left: 45px;
+    width: 30px;
+    float: bottom;
+}
+
+button {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+#bottom {
+    width: 80%;
+    margin-left: 60px;
+}
+
+button:hover{background: rgba(255,255,255,.2); color: black; }
+button:active{background: #efefef;}
+button:disabled{background: red;}
+
+#checkButton {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+#checkButton:hover{background: rgba(255,255,255,.2); color: black;}
+#checkButton:active{background: #efefef;}
+#checkButton:disabled{background: red;}
+
+#draw:hover {background-color: #ff8000}
